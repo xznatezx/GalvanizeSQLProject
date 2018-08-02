@@ -1,4 +1,4 @@
-# GalvanizeSQLProject
+## GalvanizeSQLProject
 
 Overview:
 This repository was created to show how I cleaned and imported a dataset from Kaggle that provided data on the decisions of US Visa Applications over two years.  As I went through the SQL exercises, I realized that it was a great dataset for visualizations using Excel or Tableau to find interesting patterns, however a bit difficult to query because of the large number of nulls.  This is though a great dataset to start with, query to something manageable that can then be visualized using the other tools.  My SQL querying simply built upon itself to be one main query that 
@@ -14,7 +14,7 @@ SQL queries that accomplish the most significant things you know how to do with 
 4. Use WITH AS structure
 5. Cast data as a new type so that it can be aggregated.  This proved difficult in trying to find to add a column that showed the percent or ratio of the column to the left.  
 
-Items 2-5 are all showcased in my query here:  
+Items 2-5 are all showcased in my query here:  https://github.com/xznatezx/GalvanizeSQLProject/blob/master/UseAggsAndCase.sql
 
 
 I tried joining a "Region" table I had found to the database here, and realized that the case matters in Joins.  That is here: 
