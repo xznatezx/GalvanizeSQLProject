@@ -13,7 +13,7 @@ This repository was created to show how I cleaned and imported a dataset from Ka
 #### 2. Data Source 
 Data was sourced from the following Kaggle Link:
 https://www.kaggle.com/jboysen/us-perm-visas/home
-The dataset contained over 350K records.  I used Excel to clean the data since 1/3 of it didn't have data populated for columns before a certain date.  I kept only the rows that had pertinent and interesting data that I knew could be queried with minimal NULL values and analyzed to find patterns especially using excel pivot tables and charts.  Since there were still over 250K rows of data, the CSV file I used to upload was still 136MB, so it could not be upoaded to Github.
+The dataset contained over 350K records.  I used Excel to clean the data since 1/3 of it didn't have data populated for pertinent columns before a certain date.  I kept only the rows that had pertinent and interesting data that I knew could be queried with minimal NULL values and analyzed to find patterns especially using excel pivot tables and charts.  Since there were still over 250K rows of data, the CSV file I used to upload was still 136MB, so it could not be upoaded to Github, so it is loaded to my Google Drive:  https://drive.google.com/drive/folders/1i2iVjRvlMTrGChk7S_rGGD13WZdUamcs?usp=sharing
 
 #### 3. Project Requirements
 1. Load data into a database - https://github.com/xznatezx/GalvanizeSQLProject/blob/master/ProjectDataLoadScript.sql
