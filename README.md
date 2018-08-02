@@ -14,8 +14,15 @@ SQL queries that accomplish the most significant things you know how to do with 
 4. Use WITH AS structure
 5. Cast data as a new type so that it can be aggregated.  This proved difficult in trying to find to add a column that showed the percent or ratio of the column to the left.  
 
-Items 2-5 are all showcased in my query here:  https://github.com/xznatezx/GalvanizeSQLProject/blob/master/UseAggsAndCase.sql
+Items 2-5 are all showcased in my query here:  https://github.com/xznatezx/GalvanizeSQLProject/blob/master/UseAggsAndCase.sql  I had to play a lot with this query, so while the result is just one, it took a lot of trying and building.
 
 
-I tried joining a "Region" table I had found to the database here, and realized that the case matters in Joins.  That is here: 
-So I will play more with joins on the other database to showcase fun with joins. 
+I tried joining a "Region" table I had found to the database here, and realized that the case matters in Joins.  That is here: https://github.com/xznatezx/GalvanizeSQLProject/blob/master/UseAggsAndCase.sql
+So I will play more with joins on the other sample database to showcase fun with joins. (As of 8/1, I just haven't had time to do this!!)
+
+
+Overall, I'm excited to use this dataset to make some fun visualizations to answer questions like:
+- Do certain employers get preferential treatment on visa applications
+- What country's citizens have the lowest acceptance rate.
+- Can certain employers get citizens from "unfriendly" countries get their employees approved?
+- Do higher paid employees get better acceptance rates?
